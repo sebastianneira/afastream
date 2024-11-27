@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MenuItem" extends="BaseComponent">
+    <interface>
+        <field id="id" type="string" />
+        <field id="icon" type="string" alias="icon.uri" />
+        <field id="title" type="string" alias="label.text"/>
+        <field id="screen" type="assocArray" />
+        <field id="isSelected" type="bool" alwaysNotify="true" />
+
+        <function name="setSelectedState" />
+        <function name="animateItem" />
+        <function name="hideItemText" />
+        <function name="showItemText" />
+    </interface>
+
+    <children>
+        <LayoutGroup id="itemGroup">
+            <Group id="grpIcon">
+                <Poster id="selectedIcon" />
+                <Poster id="icon" />
+            </Group>
+        </LayoutGroup>
+
+        <Group id="grpLabel">
+            <MenuItemLabel id="label" />
+        </Group>
+
+        <Animation id="animation">
+            <Vector2DFieldInterpolator id="translationInterpolator"/>
+            <FloatFieldInterpolator id="opacityInterpolator" />
+        </Animation>
+
+        <Animation id="focusAnimation">
+            <FloatFieldInterpolator id="focusOpacityInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="MenuItem.brs" />
+</component>

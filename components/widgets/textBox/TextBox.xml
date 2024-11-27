@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="TextBox" extends="BaseComponent">
+    <interface>
+        <field id="text"        type="string"  />
+        <field id="hint"        type="string" />
+        <field id="title"       type="string" />
+        <field id="width"       type="float"    value="300"/>
+        <field id="height"      type="float"    value="45" />
+        <field id="borderSize"  type="float"    value="3" />
+    </interface>
+
+    <script type="text/brightscript" uri="TextBox.brs"/>
+
+    <children>
+        <VertLayout id="container">
+            <!-- Dynamic: <Label id="title" /> --> 
+            <Group>
+                <Rectangle id="border" />
+                <Rectangle id="background" />
+                <Label id="label" />
+            </Group>
+        </VertLayout>
+    </children>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="StackView" extends="Group">
+    <interface>
+        <field id="currentScreenProps" type="assocArray" />
+        <function name="navigate" />
+        <function name="navigateBack" />
+        <function name="clearStack" />
+    </interface>
+    <children>
+        <GroupRow id="screens"/>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="StackView.brs" />
+</component>

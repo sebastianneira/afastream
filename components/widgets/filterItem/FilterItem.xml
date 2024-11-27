@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="FilterItem" extends="BaseSelectable">
+    <interface>
+        <field id="text"                    type="string"   alias="label.text" />
+        <field id="color"                   type="string"   value="0x333333"/>
+        <field id="focusColor"              type="string"   value="0xD9D9D9"/>
+        <field id="selectedColor"           type="string"   value="0xB4B4B4"/>
+        <field id="textColor"               type="string"   value="0xFFFFFF"/>
+        <field id="selectedTextColor"       type="string"   value="0x000000"/>
+    </interface>
+
+    <children>
+        <Poster id="background" />
+        <Label id="label"/>
+    </children>
+
+    <script type="text/brightscript" uri="FilterItem.brs" />
+</component>

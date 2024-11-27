@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ResponseNode" extends="BaseNode">
+    <interface>
+        <!-- <field id="requestCollection"   type="Node" /> -->
+        <field id="content"             type="node" />
+        <field id="wasSuccessful"       type="bool" />
+    </interface>
+
+     <!-- Default values -->
+   <script type = "text/brightscript">
+        <![CDATA[
+            sub init()
+                m.top.content = CreateObject("roSGNode", "ContentNode")
+                m.top.wasSuccessful = true
+            end sub
+        ]]>
+    </script>
+</component>

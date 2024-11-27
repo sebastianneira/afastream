@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="InputTask" extends="Task">
+   <interface>
+        <field id="inputData" type="assocarray" />
+        <field id="transportResponse" type="assocarray" />
+        <field id="endTask" type="boolean" value="false" />
+    </interface>
+
+    <script type="text/brightscript" uri="inputTask.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ExtendedLayoutGroup" extends="LayoutGroup">
+    <interface>
+        <field id="enabled" type="bool" value="true" />
+        <field id="keepIndex" type="bool" value="true" />
+        <field id="resetIndex" type="bool" value="true" alwaysNotify="true" />
+        <field id="focusedIndex" type="int" />
+        <field id="focusedElement" type="node" />
+        <field id="forceFocus" type="string" alwaysNotify="true" />
+        <field id="keyHoldInProgress" type="bool" value="false" />
+        <field id="keyHoldAllowed" type="bool" value="true" />
+        <field id="keyHoldLockDuration" type="float" />
+        <field id="keyHoldDuration" type="float" />
+        
+        <field id="alias" type="string"/>
+        <function name="setFocused" />
+    </interface>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="ExtendedLayoutGroup.brs" />
+</component>

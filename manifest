@@ -1,0 +1,25 @@
+##   Channel Details
+title=American Family Association
+major_version=1
+minor_version=0
+build_version=7
+rsg_version=1.2
+supports_input_launch=1
+supports_etc_seek=1
+supports_etc_next=1
+sg_component_libs_required=roku_analytics
+bs_const=debug=false;logging=false;proxy=true
+ui_resolutions=FHD
+
+##   Channel Assets
+#### Image sizes are FHD: 540x405px | HD: 290x218px
+mm_icon_focus_fhd=pkg:/images/channel/channel-poster_fhd.png
+mm_icon_focus_hd=pkg:/images/channel/channel-poster_hd.png
+
+###  Splash Screen + Loading Screen Artwork 
+#### Image sizes are FHD: 1920x1080px | HD: 1280x720px
+splash_screen_fhd=pkg:/images/channel/splash-screen_fhd.png
+splash_screen_hd=pkg:/images/channel/splash-screen_hd.png
+
+splash_color=#222121
+

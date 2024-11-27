@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="HomeTileLarge" extends="HomeTile">
+    <interface>
+    </interface>
+
+    <children>
+        <Rectangle id="meta">
+            <Label id="metaLineOne" />
+            <Label id="metaLineTwo" />
+            <Label id="metaLineThree" />
+        </Rectangle>
+    </children>
+
+    <script type="text/brightscript" uri="HomeTileLarge.brs" />
+</component>

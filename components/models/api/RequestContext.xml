@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="RequestContext" extends="BaseNode">
+    <interface>
+        <field id="envUrl"          type="string" />
+        <field id="path"            type="string" />
+        <field id="parser"          type="string" /> 
+        <field id="method"          type="string" />
+        <field id="body"            type="assocArray" />
+        <field id="headers"         type="assocArray" />
+        <field id="query"           type="assocArray" />
+        <field id="additionalInfo"  type="assocArray" />
+        <field id="requiresAuth"    type="bool" />
+        <field id="queryEncode"     type="bool" />
+
+        <function name="validate" />
+        <function name="getUrl" />
+        <function name="getRequest" />
+    </interface>
+
+    <script type="text/brightscript" uri="RequestContext.brs" />
+</component>

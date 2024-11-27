@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Menu" extends="BaseComponent">
+    <interface>
+        <field id="selected"            type="string"   alwaysNotify="true" />
+        <field id="allowOptionRefresh"  type="bool"     value="true" /> 
+        
+        <function name="setSelectedByItemId" />
+    </interface>
+
+    <children>
+        <Rectangle id="background" />
+
+        <Poster id="playLogo" />
+        <Poster id="afaLogo" />
+        <Group id="container">
+            <VertLayout id="options"/>
+        </Group>
+
+        <Animation id="animation">
+            <Vector2DFieldInterpolator id="containerTranslationIntr" />
+            <Vector2DFieldInterpolator id="logoPlayTranslationIntr" />
+            <FloatFieldInterpolator id="playLogoOpacityIntr" />
+            <FloatFieldInterpolator id="afaLogoOpacityIntr" />
+            <FloatFieldInterpolator id="bgOpacityIntr" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="Menu.brs" />
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoProgressModel" extends="BaseModel">
+    <interface>
+        <field id="timeStamp"   type="int"/>
+        <field id="videoId"     type="int"/>
+        <field id="episodeId"   type="int"/>
+    </interface>
+</component>

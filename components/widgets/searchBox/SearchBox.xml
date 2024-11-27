@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SearchBox" extends="BaseInput">
+    <interface>
+        <field id="text"    type="string" />
+        <field id="hint"    type="string" />
+        <field id="width"   type="integer" />
+        <field id="height"  type="integer" />
+    </interface>
+
+    <children>
+        <Poster id="background" />
+        <Poster id="icon" />
+        <Label id="label" />
+
+        <Animation id="animation">
+            <FloatFieldInterpolator id="iconOpacityInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="SearchBox.brs" />
+</component>

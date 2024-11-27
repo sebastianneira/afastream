@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="HeroTile" extends="BaseTile">
+    <interface>
+        <field id="ready"           type="bool" />
+        <field id="selected"        type="bool" alwaysNotify="true"/>
+        <field id="instantPlay"     type="bool" />
+    </interface>
+
+    <children>
+        <Poster id="background">
+            <Poster id="overlay" />
+            <Poster id="logo" />
+            <LayoutGroup id="textContainer">
+                <label id="title" />
+                <label id="description" />
+                <HorizLayout id="buttons">
+                    <Button id="btnCTA" />
+                    <Button id="btnMoreInfo" />
+                    <!-- Dynamic: <Button id="btnWatchList" /> -->
+                </HorizLayout>
+            </LayoutGroup>
+        </Poster>
+    </children>
+
+    <script type="text/brightscript" uri="HeroTile.brs" />
+</component>

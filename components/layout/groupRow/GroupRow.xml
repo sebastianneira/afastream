@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="GroupRow" extends="ExtendedGroup">
+    <interface>
+        <field id="stackChildren" type="bool" value="false" />
+    </interface>
+
+    <children>
+    </children>
+
+<script type="text/brightscript" uri="GroupRow.brs" />
+</component>

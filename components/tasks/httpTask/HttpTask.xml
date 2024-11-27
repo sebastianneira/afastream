@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HTTPTask" extends="Task">
+    <interface>
+        <field id="requests"        type="array" />
+        <field id="endTask"         type="boolean" />
+        <field id="queueCompleted"  type="boolean" alwaysNotify="true" />
+    </interface>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.http.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="HttpTask.brs" />
+</component>

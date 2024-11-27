@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"
+	xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file original="main.brs" source-language="en-US" target-language="en-US" datatype="x-brs">
+		<body>
+			<trans-unit>
+				<source>watch_list</source>
+				<target>watch list</target>
+			</trans-unit>
+			<trans-unit>
+				<source>watch_now</source>
+				<target>Watch Now</target>
+			</trans-unit>
+			<trans-unit>
+				<source>restart</source>
+				<target>Restart</target>
+			</trans-unit>
+			<trans-unit>
+				<source>trailer</source>
+				<target>Trailer</target>
+			</trans-unit>
+			<trans-unit>
+				<source>play</source>
+				<target>Play</target>
+			</trans-unit>
+			<trans-unit>
+				<source>resume</source>
+				<target>Resume</target>
+			</trans-unit>
+			<trans-unit>
+				<source>runtime</source>
+				<target>Runtime</target>
+			</trans-unit>
+			<trans-unit>
+				<source>time_left_menutes</source>
+				<target>{0} Minutes Left</target>
+			</trans-unit>
+			<trans-unit>
+				<source>watchlist</source>
+				<target>Watchlist</target>
+			</trans-unit>
+			<trans-unit>
+				<source>firstName</source>
+				<target>First Name</target>
+			</trans-unit>
+			<trans-unit>
+				<source>lastName</source>
+				<target>Last Name</target>
+			</trans-unit>
+			<trans-unit>
+				<source>email</source>
+				<target>Email Address</target>
+			</trans-unit>
+			<trans-unit>
+				<source>phone</source>
+				<target>Phone</target>
+			</trans-unit>
+			<trans-unit>
+				<source>address</source>
+				<target>Address</target>
+			</trans-unit>
+			<trans-unit>
+				<source>addressL1</source>
+				<target>Address Line 1</target>
+			</trans-unit>
+			<trans-unit>
+				<source>addressL2</source>
+				<target>Address Line 2</target>
+			</trans-unit>
+			<trans-unit>
+				<source>city</source>
+				<target>City</target>
+			</trans-unit>
+			<trans-unit>
+				<source>state</source>
+				<target>State</target>
+			</trans-unit>
+			<trans-unit>
+				<source>zip</source>
+				<target>Zip</target>
+			</trans-unit>
+			<trans-unit>
+				<source>accountInformation</source>
+				<target>Account Information</target>
+			</trans-unit>
+			<trans-unit>
+				<source>accountCreated</source>
+				<target>Account Created: </target>
+			</trans-unit>
+			<trans-unit>
+				<source>accountModified</source>
+				<target>Account Modified: </target>
+			</trans-unit>
+			<trans-unit>
+				<source>logout</source>
+				<target>Log out</target>
+			</trans-unit>
+			<trans-unit>
+				<source>continue</source>
+				<target>Continue</target>
+			</trans-unit>
+			<trans-unit>
+				<source>welcome</source>
+				<target>Welcome</target>
+			</trans-unit>
+			<trans-unit>
+				<source>logInMessage</source>
+				<target>Log in to American Family Association to continue to Video Streaming Platform</target>
+			</trans-unit>
+			<trans-unit>
+				<source>email</source>
+				<target>Email Addresss</target>
+			</trans-unit>
+			<trans-unit>
+				<source>password</source>
+				<target>Password</target>
+			</trans-unit>
+			<trans-unit>
+				<source>email_validation</source>
+				<target>Please enter a valid Email Address</target>
+			</trans-unit>
+			<trans-unit>
+				<source>password_validation</source>
+				<target>Please enter a valid Password</target>
+			</trans-unit>
+			<trans-unit>
+				<source>login_validation</source>
+				<target>Something went wrong, please try again</target>
+			</trans-unit>
+			<trans-unit>
+				<source>loading</source>
+				<target>Loading...</target>
+			</trans-unit>
+			<trans-unit>
+				<source>continue_watching</source>
+				<target>Continue Watching</target>
+			</trans-unit>
+			<trans-unit>
+				<source>new_releases</source>
+				<target>New Releases</target>
+			</trans-unit>
+			<trans-unit>
+				<source>new_episodes</source>
+				<target>New Episodes</target>
+			</trans-unit>
+			<trans-unit>
+				<source>more_information</source>
+				<target>More Information</target>
+			</trans-unit>
+			<trans-unit>
+				<source>producers</source>
+				<target>Producers</target>
+			</trans-unit>
+			<trans-unit>
+				<source>release_year</source>
+				<target>Year of Release</target>
+			</trans-unit>
+			<trans-unit>
+				<source>cast_crew</source>
+				<target>Cast and Crew</target>
+			</trans-unit>
+			<trans-unit>
+				<source>copyright_date</source>
+				<target>Copyright Date</target>
+			</trans-unit>
+			<trans-unit>
+				<source>episodes</source>
+				<target>Episodes</target>
+			</trans-unit>
+			<trans-unit>
+				<source>popular_videos</source>
+				<target>Popular Videos</target>
+			</trans-unit>
+			<trans-unit>
+				<source>search</source>
+				<target>Search</target>
+			</trans-unit>
+			<trans-unit>
+				<source>search_results</source>
+				<target>{0} Results for {1}</target>
+			</trans-unit>
+			<trans-unit>
+				<source>watch_live</source>
+				<target>Watch Live</target>
+			</trans-unit>
+			<trans-unit>
+				<source>more_info</source>
+				<target>More Info</target>
+			</trans-unit>
+			<trans-unit>
+				<source>live</source>
+				<target>Live</target>
+			</trans-unit>
+			<trans-unit>
+				<source>free</source>
+				<target>Free</target>
+			</trans-unit>
+			<trans-unit>
+				<source>gcp</source>
+				<target>Gcp</target>
+			</trans-unit>
+			<trans-unit>
+				<source>no_search_results</source>
+				<target>No search results for '{0}'</target>
+			</trans-unit>
+			<trans-unit>
+				<source>empty_watchlist</source>
+				<target>Your Watch List is empty</target>
+			</trans-unit>
+			<trans-unit>
+				<source>free_account_info</source>
+				<target>You're currently using a free account with limited access. Go to https://stream.afa.net/manage-account to manage your access.</target>
+			</trans-unit>
+			<trans-unit>
+				<source>gcp_account_info</source>
+				<target>Thank you for being a Great Commission Partner with American Family Association!</target>
+			</trans-unit>
+			<trans-unit>
+				<source>show</source>
+				<target>Show</target>
+			</trans-unit>
+			<trans-unit>
+				<source>hide</source>
+				<target>Hide</target>
+			</trans-unit>
+			<trans-unit>
+				<source>all</source>
+				<target>All</target>
+			</trans-unit>
+			<trans-unit>
+				<source>see_all</source>
+				<target>See All</target>
+			</trans-unit>
+			<trans-unit>
+				<source>account_upgrade_badge</source>
+				<target>Upgrade your account to play this video</target>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

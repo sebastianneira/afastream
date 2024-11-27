@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="TrickModeTask" extends="Task">
+    <interface>
+        <field id="request" type="assocArray" />
+        <field id="endTask" type="boolean" />
+    </interface>
+
+    <script type="text/brightscript" uri="TrickModeTask.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.http.brs" />
+</component>

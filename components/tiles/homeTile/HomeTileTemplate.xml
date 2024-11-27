@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="HomeTileTemplate" extends="Group">
+    <interface>
+        <field id="lineOneText" type="string" alias="metaLineOne.text" />
+        <field id="lineTwoText" type="string" alias="metaLineTwo.text" />
+        <field id="lineThreeText" type="string" alias="metaLineThree.text" />
+    </interface>
+
+    <children>
+        <Rectangle id="container">
+            <Label id="metaLineOne" />
+            <Label id="metaLineTwo" />
+            <Label id="metaLineThree" />
+        </Rectangle>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="HomeTileTemplate.brs" />
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="WatchListScreen" extends="NavigableScreen">
+    <interface>
+    </interface>
+
+    <children>
+        <Group id="content">
+            <Poster id="backgroundOne" />
+            <Poster id="backgroundTwo" />
+            <Rectangle id="panel">
+                <RowList id="rowWatchList" />
+            </Rectangle>
+        </Group>
+        <Label id="emptyWatchListLbl" />
+
+        <Animation id="loadAnimation">
+            <FloatFieldInterpolator id="bgOpacityInterpolatorSelected" />
+            <FloatFieldInterpolator id="bgOpacityInterpolatorUnselected" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="WatchListScreen.brs" />
+</component>

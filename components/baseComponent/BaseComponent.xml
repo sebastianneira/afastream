@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="BaseComponent" extends="ExtendedGroup">
+    <interface>
+        <field id="content" type="node" onChange="onContentChanged" alwaysNotify="true" />
+   	</interface>
+
+    <script type="text/brightscript" uri="BaseComponent.brs"/>
+</component>

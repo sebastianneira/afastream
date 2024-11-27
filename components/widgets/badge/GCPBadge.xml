@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="GCPBadge" extends="Badge">
+    <interface>
+    </interface>
+
+    <!-- Default values -->
+   <script type = "text/brightscript">
+        <![CDATA[
+            sub init()
+                m.top.color = "0x007bff"
+                m.top.text = ucase(tr("gcp"))
+            end sub
+        ]]>
+    </script>
+</component>

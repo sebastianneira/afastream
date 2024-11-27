@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Loader" extends="BaseComponent">
+    <interface>
+    </interface>
+
+    <children>
+        <Rectangle id="background"/>
+        <LayoutGroup id="container" >
+            <BusySpinner id="spinner"/>
+            <Label id="title" />
+        </LayoutGroup>
+    </children>
+
+    <script type="text/brightscript" uri="Loader.brs" />
+</component>

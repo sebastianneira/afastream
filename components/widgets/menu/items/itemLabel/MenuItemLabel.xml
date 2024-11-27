@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MenuItemLabel" extends="BaseComponent">
+    <interface>
+        <field id="text" type="string" alias="title.text" />
+        <field id="color" type="string" alias="title.color" />
+        <field id="setSelected" type="bool" alwaysNotify="true" />
+    </interface>
+
+    <children>
+        <Label id="title" />
+        <Rectangle id="underline" />
+    </children>
+
+    <script type="text/brightscript" uri="MenuItemLabel.brs" />
+</component>

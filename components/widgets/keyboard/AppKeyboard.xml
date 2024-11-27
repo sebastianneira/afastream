@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="AppKeyboard" extends="Group">
+    <interface>
+        <field id="text" type="string" />
+        <field id="node" type="node" />
+        <field id="context" type="assocArray" />
+    </interface>
+
+    <children>
+        <Group id="container">
+            <Rectangle id="background">
+                <DynamicKeyboard id="keyboard" />
+                <HorizLayout id="additionalBtns">
+                    <!-- <Button id="showPassword" text="show"/> -->
+                </HorizLayout>
+            </Rectangle>
+        </Group>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="AppKeyboard.brs" />
+</component>

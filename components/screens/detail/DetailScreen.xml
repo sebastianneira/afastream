@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="DetailScreen" extends="BaseScreen">
+    <interface>
+    </interface>
+
+    <children>
+        <Poster id="background">
+            <Poster id="overlay" />
+            <LayoutGroup id="content">
+                <Label id="title"/>
+                <Label id="subTitle"/>
+                <Label id="thirdTitle"/>
+                <Badge id="badge"/>
+                <HorizLayout id="buttons">
+                    <Button id="btnPlay" />
+                    <Button id="btnWatchList" />
+                </HorizLayout>
+                <Label id="summary"/>
+            </LayoutGroup>
+        </Poster>
+
+        <Group id="panel">
+            <Rectangle id="panelBackground"/>
+            <LayoutGroup id="panelContent">
+                <LayoutGroup id="panelContentLeft">
+                    <Label id="moreInfoTitle"/>
+                    <Label id="moreInformation"/>
+                </LayoutGroup>
+                <LayoutGroup id="panelContentRight">
+                    <!-- Producers -->
+                    <LayoutGroup id="producersGroup">
+                        <Label id="producersTitle"/>
+                        <Label id="producers"/>
+                    </LayoutGroup>
+                    <!-- Cast and Crew -->
+                    <LayoutGroup id="castGroup">
+                        <Label id="castTitle"/>
+                        <Label id="cast"/>
+                    </LayoutGroup>
+                    <!-- Year of Release -->
+                    <LayoutGroup id="releaseYearGroup">
+                        <Label id="releaseYearTitle"/>
+                        <Label id="releaseYear"/>
+                    </LayoutGroup>
+                    <!-- Copyright Date -->
+                    <LayoutGroup id="copyrightGroup">
+                        <Label id="copyrightTitle"/>
+                        <Label id="copyright"/>
+                    </LayoutGroup>
+                </LayoutGroup>
+            </LayoutGroup>
+            <Group id="panelEpisodes">
+                <Label id="episodesTitle"/>
+                <HorizLayout id="episodesPages"/>
+                <Scroller id="episodes"/>
+            </Group>
+        </Group>
+
+        <Animation id="panelAnimation">
+            <FloatFieldInterpolator id="panelBgOpacityInterpolator" />
+            <FloatFieldInterpolator id="panelContentOpacityInterpolator" />
+            <FloatFieldInterpolator id="panelEpisodesPagesOpacityInterpolator" />
+            <Vector2DFieldInterpolator id="panelTranslationInterpolator" />
+            <Vector2DFieldInterpolator id="panelContentInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="DetailScreen.brs" />
+</component>

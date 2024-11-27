@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="CategoriesScreen" extends="NavigableScreen">
+    <interface>
+    </interface>
+
+    <children>
+        <ExtendedGroup id="container">
+            <Group id="category">
+                <Label id="categoryTitle"/>
+                <Label id="categoryDescription" />
+                <MarkupGrid id="categoryGrid" />
+            </Group>
+            <RowList id="categoriesList" />
+            <ScrollBar id="filterBar" />
+        </ExtendedGroup>
+    </children>
+    <script type="text/brightscript" uri="CategoriesScreen.brs" />
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="SearchScreen" extends="NavigableScreen">
+    <interface>
+    </interface>
+
+    <children>
+        <SearchBox id="searchBox"/>
+        <Label id="noResultsLbl" />
+        <RowList id="searchResults" />
+        <AppKeyboard id="keyboard" />
+    </children>
+
+    <script type="text/brightscript" uri="SearchScreen.brs" />
+</component>

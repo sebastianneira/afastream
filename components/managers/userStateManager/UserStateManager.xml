@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UserStateManager" extends="Node">
+    <interface>
+        <field id="user"                    type="node" />
+        <field id="watchList"               type="node" alwaysNotify="true"/>
+        <field id="videoSessionTimeStamps"  type="node" />
+        
+        <!-- Auth -->
+        <function name="getAuthToken" />
+        <function name="refreshAuthToken" />
+        <function name="getAccountInfo" />
+        
+        <!-- Watch List -->
+        <function name="refreshWatchList" />
+        <function name="getWatchList" />
+        <function name="addToWatchList" />
+        <function name="removeFromWatchList" />
+        <!-- Video Progress -->
+        <function name="getVideoSessionProgress" />
+        <function name="trackVideoSessionProgress" />
+    </interface>
+
+    <script type="text/brightscript" uri="UserStateManager.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.api.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+</component>

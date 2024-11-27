@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "name": "Production Environment",
+            "rootDir": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "host": "${env:LAUNCH_HOST}",
+            "password": "${env:LAUNCH_PASSWORD}",
+            "bsConst": {
+                "debug": false,
+                "logging": false
+            },
+            "files": [
+                "manifest",
+                "source/**/*.*",
+                "components/**/*.*",
+                "images/**/*.*",
+                "locale/**/*.*",
+                "!**/TrackerTask.xml"
+            ],
+            "injectRaleTrackerTask": false
+        },
+        {
+            "type": "brightscript",
+            "request": "launch",
+            "name": "Test Environment",
+            "rootDir": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "host": "${env:LAUNCH_HOST}",
+            "password": "${env:LAUNCH_PASSWORD}",
+            "bsConst": {
+                "debug": true,
+                "logging": true
+            },
+            "files": [
+                "manifest",
+                "source/**/*.*",
+                "components/**/*.*",
+                "images/**/*.*",
+                "locale/**/*.*"
+            ],
+            "injectRaleTrackerTask": true,
+            "raleTrackerTaskFileLocation": "${workspaceFolder}/components/tasks/trackerTask/TrackerTask.xml" 
+        }
+    ]
+}

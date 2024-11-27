@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="VideoPlayerModel" extends="BaseModel">
+    <interface>
+        <field id="videoId"             type="int"/>
+        <field id="cloudflareVideoId"   type="string"/>
+        <field id="airDateFormatted"    type="string"/>
+        <field id="timeStamp"           type="int"/>
+        <field id="episodeIndex"        type="int"/>
+        <field id="episodeId"           type="int"/>
+        <field id="runTimeSeconds"      type="int"/>
+        <field id="isGCP"               type="boolean"/>
+        <field id="parentalGuidance"    type="boolean"/>
+        <field id="isTrailer"           type="boolean"/>
+        <field id="isLive"              type="boolean"/>
+        <field id="liveUrl"             type="string"/>
+        <field id="restartProgess"      type="boolean"/>
+    </interface>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene">
+    <interface>
+        <field id="appEvent" type="assocArray" alwaysNotify="true"/>
+        <field id="navigationEnabled" type="bool" />
+    </interface>
+
+    <children>
+        <Rectangle id="background" />
+
+        <Group id="content">
+            <StackView id="stack" />
+            <Menu id="navigation" />
+        </Group>
+
+        <LayoutGroup id="exitMessage" visible="false">
+            <Label id="exitLabel" />
+            <HorizLayout id="confirmBtns">
+                <Button id="btnConfirm"/>
+                <Button id="btnCancel"/>
+            </HorizLayout>
+        </LayoutGroup>
+
+        <Animation id="animation">
+            <FloatFieldInterpolator id="tabBarOpacityInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="MainScene.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="pkg:/source/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+</component>

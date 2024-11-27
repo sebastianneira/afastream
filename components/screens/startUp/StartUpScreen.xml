@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="StartUpScreen" extends="BaseScreen">
+    <interface>
+    </interface>
+
+    <children>
+    </children>
+
+    <script type="text/brightscript" uri="StartUpScreen.brs" />
+</component>

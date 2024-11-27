@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="FreeBadge" extends="Badge">
+    <interface>
+    </interface>
+
+    <!-- Default values -->
+   <script type = "text/brightscript">
+        <![CDATA[
+            sub init()
+                m.top.color = "0x28a745"
+                m.top.text = ucase(tr("free"))
+            end sub
+        ]]>
+    </script>
+</component>

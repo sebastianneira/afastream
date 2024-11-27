@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="AccountScreen" extends="NavigableScreen">
+    <interface>
+    </interface>
+
+    <children>
+        <VertLayout id="container">
+            <Label id="title"/>
+            <Rectangle id="line"/>
+            <HorizLayout id="accountInfo">
+                <VertLayout id="grpUser">
+                    <HorizLayout id="grpName">
+                        <TextBox id="name"/>
+                        <TextBox id="lastName"/>
+                    </HorizLayout>
+                    <HorizLayout id="grpContact">
+                        <TextBox id="email"/>
+                        <TextBox id="phone"/>
+                    </HorizLayout>
+                    <Label id="accountAccessTitle"/>
+                    <Label id="accountAccessLbl"/>
+                </VertLayout>
+                <VertLayout id="grpAddresss">
+                    <TextBox id="addressL1" />
+                    <TextBox id="addressL2"/>
+                    <TextBox id="city"/>
+                    <HorizLayout itemSpacings="[18]">
+                        <TextBox id="state"/>
+                        <TextBox id="zip" />
+                    </HorizLayout>
+                </VertLayout>
+            </HorizLayout>
+            <Button id="btnLogout" />
+            <Label id="accountCreated"/>
+            <Label id="accountModified"/>
+        </VertLayout>
+    </children>
+
+    <script type="text/brightscript" uri="AccountScreen.brs" />
+</component>

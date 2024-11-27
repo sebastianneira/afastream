@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="InputText" extends="baseInput">
+    <interface>
+        <field id="text"            type="string"  />
+        <field id="regex"           type="string" />
+        <field id="hint"            type="string"   alias="input.hint"/>
+        <field id="width"           type="float"    alias="input.width" />
+        <field id="height"          type="float"    alias="input.height" />
+        <field id="validationMsg"   type="string"/>
+        <field id="isSecureField"   type="bool" />
+        <field id="showPassword"    type="bool" />
+        <field id="minimumLength"   type="integer"  value="1" />
+
+        <function name="validate" />
+    </interface>
+
+    <script type="text/brightscript" uri="InputText.brs"/>
+
+    <children>
+        <LayoutGroup id="container">
+            <Group id="box">
+                <TextBox id="input" />
+            </Group>
+        </LayoutGroup>
+    </children>
+</component>
+

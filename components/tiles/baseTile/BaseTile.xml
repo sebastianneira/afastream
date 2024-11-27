@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="BaseTile" extends="Group">
+    <interface>
+        <field id="itemContent"         type="node" />
+        <field id="focusPercent"        type="float" />
+        <field id="rowFocusPercent"     type="float" />
+        <field id="rowHasFocus"         type="boolean" />
+        <field id="rowListHasFocus"     type="boolean" />
+        <field id="gridHasFocus"        type="boolean" />
+        <field id="itemHasFocus"        type="boolean" />
+        <field id="width"               type="float"/>
+        <field id="height"              type="float"/>
+    </interface>
+
+    <children/>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="BaseTile.brs" />
+</component>

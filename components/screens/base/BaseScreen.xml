@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="BaseScreen" extends="GroupRow">
+    <interface>
+        <field id="reqId" type="string" />
+        <field id="state" type="string" onChange="onStateChanged" alwaysNotify="true" />
+        <field id="model" type="node" onChange="onModelChanged" />
+        <field id="context" type="node" />
+        <field id="prevScreen" type="string" />
+        <field id="enablesNavigation" type="bool" value="false" />
+        <field id="setFocus" type="bool" onChange="onSetFocusChanged" value="false" alwaysNotify="true" />
+        <field id="setFocusOnInitState" type="bool" value="true" />
+        <field id="setFocusOnActivateState" type="bool" value="true" />
+        <field id="isLoading" type="bool" value="false" />
+    </interface>
+
+    <children>
+        <!-- Dynamic <Loader id="loader"/> -->
+
+        <Animation id="screnAnimation">
+            <FloatFieldInterpolator id="screenOpacityInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/config.brs" />
+    <script type="text/brightscript" uri="pkg:/source/registry.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.api.brs" />
+    <script type="text/brightscript" uri="BaseScreen.brs" />
+</component>

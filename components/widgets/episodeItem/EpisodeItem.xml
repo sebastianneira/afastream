@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="EpisodeItem" extends="BaseSelectable">
+    <interface>
+        <field id="episode"             type="assocArray" />
+        <field id="timestamp"           type="int" />
+        <field id="width"               type="float" value="1710"  />
+        <field id="height"              type="float" value="66" />
+        <field id="isEntitledToPlay"    type="boolean" />
+    </interface>
+
+    <children>
+        <Rectangle id="container">
+            <Poster id="icon" />
+            <LayoutGroup id="content">    
+                <Label id="date" />
+                <Label id="episodeTitle"/>
+                <Label id="duration"/>
+                <Rectangle id="progressBarBg">
+                    <Rectangle id="progressBar" />
+                </Rectangle>
+            </LayoutGroup>
+            <Rectangle id="border"/>
+        </Rectangle>
+
+        <Animation id="animation">
+            <FloatFieldInterpolator id="contentOpacityInterpolator" />
+            <ColorFieldInterpolator id="containerColorInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="EpisodeItem.brs" />
+</component>

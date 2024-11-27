@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="ExtendedGroup" extends="Group">
+    <interface>
+        <field id="keepIndex" type="bool" value="false" />
+        <field id="forceFocus" type="string" alwaysNotify="true" />
+        <field id="focusedIndex" type="int" />
+        <field id="focusedElement" type="node" />
+        <field id="skipFirstFocus" type="bool" value="false" />
+        <field id="enabled" type="bool" value="true" />
+    </interface>
+
+    <children>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="ExtendedGroup.brs" />
+</component>

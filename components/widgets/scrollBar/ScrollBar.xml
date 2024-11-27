@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ScrollBar" extends="Group">
+    <interface>
+        <field id="itemSpacings"    type="array"    value="[0]" alias="container.itemSpacings" />
+        <field id="focusedIndex"    type="int"      alias="container.focusedIndex" />
+        <field id="container"       type="node"  />
+    </interface>
+    <children>
+        <HorizLayout id="container" />
+        <Animation id="animation">
+            <Vector2DFieldInterpolator id = "translationInterpolator"/>
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="ScrollBar.brs" />
+</component>

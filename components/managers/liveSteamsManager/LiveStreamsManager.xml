@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="LiveStreamsManager" extends="Node">
+    <interface>
+        <field id="liveStreamShow"  type="node" />
+        <field id="liveStreamUrl"   type="string" />
+        
+        <function name="getLiveShows" />
+    </interface>
+
+    <script type="text/brightscript" uri="LiveStreamsManager.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.api.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+</component>

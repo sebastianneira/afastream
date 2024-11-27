@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Button" extends="BaseSelectable">
+    <interface>
+       <field id="text"             type="string"   alias="title.text"/>
+       <field id="icon"             type="string"   alias="icon.uri"/>
+       <field id="color"            type="string"   value="0x1D41A5"/>
+       <field id="focusColor"       type="string"   value="0x2A60F4"/>
+       <field id="selectedColor"    type="string"   value="0x1D41A5"/>
+       <field id="height"           type="float"    value="66" />
+       <field id="maxWidth"         type="float"    value="180" />
+       <field id="animationTime"    type="float"    value="0.3"     alias="animation.duration" />
+       <field id="flexible"         type="bool"     value="true" />
+       <field id="animate"          type="bool"     value="true"/>
+       <field id="static"           type="bool" />
+       <field id="progressPercent"  type="float" />
+    </interface>
+
+    <children>
+        <Rectangle id="background">
+            <Poster id="icon" />
+            <ScrollingLabel id="title" />
+            <!-- Dynamic: <Rectangle id="progressBarBg">
+                <Rectangle id="progressBar"/>
+            </Rectangle> -->
+        </Rectangle>
+
+        <Animation id="animation">
+            <ColorFieldInterpolator id="bgColorInterpolator" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="Button.brs" />
+</component>

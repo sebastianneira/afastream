@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UserModel" extends="BaseModel">
+    <interface>
+        <field id="accessToken"     type="string" alwaysNotify="true"/>
+        <field id="afaToken"        type="string" alwaysNotify="true"/>
+        <field id="refreshToken"    type="string"/>
+        <field id="expiresIn"       type="string"/>
+        <field id="tokenType"       type="string"/>
+        <field id="profile"         type="assocArray"/>
+    </interface>
+</component>

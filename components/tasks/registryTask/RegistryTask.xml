@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="RegistryTask" extends="Task">
+    <interface>
+        <field id="operation" type="array" />
+        <field id="endTask" type="boolean" />
+    </interface>
+    <script type="text/brightscript" uri="RegistryTask.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+</component>

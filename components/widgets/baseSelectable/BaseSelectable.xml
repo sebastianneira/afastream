@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="BaseSelectable" extends="Group">
+    <interface>
+        <field id="enabled"             type="bool" value="true" />
+        <field id="selected"            type="bool" />
+        <field id="keepSelection"       type="bool" />
+        <field id="focusOnOpacity"      type="float" value="1.0" />
+        <field id="focusOffOpacity"     type="float" value="0.7" />
+        <field id="notEnabledOpacity"   type="float" value="0.5" />
+        <field id="skipFirstFocus"      type="bool" />
+    </interface>
+
+    <children>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.device.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="BaseSelectable.brs" />
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BaseModel" extends="ContentNode">
+    <interface>
+        <function name="adapt" />
+        <function name="returnAsAssocArray" />
+    </interface>
+
+    <script type="text/brightscript" uri="BaseModel.brs" />
+</component>

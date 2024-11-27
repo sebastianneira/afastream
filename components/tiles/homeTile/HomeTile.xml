@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <component name="HomeTile" extends="BaseTile">
+    <interface>
+    </interface>
+
+    <children>
+        <Rectangle id="background" />
+        <Label id="label" />
+        <Poster id="image">
+            <Rectangle id="progressBar">
+                <Rectangle id="progress"/>
+            </Rectangle>
+            <Badge id="badge" />
+        </Poster>
+    </children>
+
+    <script type="text/brightscript" uri="HomeTile.brs" />
+</component>

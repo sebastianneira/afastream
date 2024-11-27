@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Badge" extends="BaseComponent">
+    <interface>
+        <field id="text"    type="string" alias="text.text"/>
+        <field id="color"   type="string" alias="background.blendColor" />
+
+        <function name="setToFreeBadge" />
+        <function name="setToGCPBadge" />
+        <function name="setToLiveBadge" />
+    </interface>
+
+    <children>
+        <Poster id="background">
+            <Label id="text" />
+            <Poster id="icon" />
+        </Poster>
+    </children>
+
+    <script type="text/brightscript" uri="Badge.brs" />
+</component>

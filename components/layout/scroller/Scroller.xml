@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Scroller" extends="Group">
+    <interface>
+        <field id="itemSpacings"        type="array"    value="[0]" alias="container.itemSpacings" />
+        <field id="scrollEnabled"       type="boolean"  alias="container.enabled" />
+        <field id="scollOnEveryItem"    type="boolean"  value="true" />
+        <field id="focusedIndex"        type="int"      alias="container.focusedIndex" />
+
+        <function name="resetContent" />
+        <function name="scrollTop" />
+    </interface>
+
+    <children>
+        <VertLayout id="container" alias="scroller"/>
+
+        <Animation id="containerAnimation" repeat="false" duration="0.15" optional="true" easeFunction="linear">
+            <Vector2DFieldInterpolator id="translationInterpolator" key="[0.0, 1.0]"
+                fieldToInterp="container.translation" />
+        </Animation>
+    </children>
+
+    <script type="text/brightscript" uri="pkg:/source/utils.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils.nodes.brs" />
+    <script type="text/brightscript" uri="Scroller.brs" />
+</component>

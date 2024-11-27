@@ -1,0 +1,4 @@
+{
+	"brightscript.configFile": "thinClient/bsconfig.json",
+	"brightscript.bsdk": "node_modules/brighterscript"
+}
