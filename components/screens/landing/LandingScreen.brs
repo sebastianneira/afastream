@@ -121,18 +121,8 @@ sub initComponent()
     m.store.requestedUserDataInfo = storeDataInfo
 
     if m.isDebug = true
-        ' m.email.text = "rhdez.g@gmail.com"
-        ' m.password.text = "Qwerty@123"
-
-        m.email.text = "developer@afa.net"
-        m.password.text = "testerPassword2023!#"
-
-
-        ' m.email.text = "jarrod.Glasgow@gmail.com"
-        ' m.password.text = "neXxej-jusme6"
-
-        ' m.email.text = "kaley@belovedrobot.com"
-        ' m.password.text = "Test123!"
+        m.email.text = "test@afa.net"
+        m.password.text = ""
     else
         m.store.command = "getUserData"
     end if
